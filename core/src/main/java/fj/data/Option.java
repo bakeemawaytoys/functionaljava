@@ -141,7 +141,7 @@ public abstract class Option<A> implements Iterable<A> {
   /**
    * Returns the value of this optional value or the given argument.
    *
-   * @param a The argument to return if this optiona value has no value.
+   * @param a The argument to return if this optional value has no value.
    * @return The value of this optional value or the given argument.
    */
   public final A orSome(final F0<A> a) {
@@ -151,7 +151,7 @@ public abstract class Option<A> implements Iterable<A> {
   /**
    * Returns the value of this optional value or the given argument.
    *
-   * @param a The argument to return if this optiona value has no value.
+   * @param a The argument to return if this optional value has no value.
    * @return The value of this optional value or the given argument.
    */
   public final A orSome(final A a) {

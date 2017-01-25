@@ -1327,7 +1327,7 @@ public abstract class Stream<A> implements Iterable<A> {
   }
 
   /**
-   * Returns a stream of all prefixes of this stream. A stream is considered a prefix of itself in tnis context.
+   * Returns a stream of all prefixes of this stream. A stream is considered a prefix of itself in this context.
    *
    * @return a stream of the prefixes of this stream, starting with the stream itself.
    */

@@ -319,7 +319,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a fold left accummulating and returns an array of the intermediate results.
+   * Performs a fold left accumulating and returns an array of the intermediate results.
    * This function runs in constant stack space.
    *
    * @param f The function to apply on each argument pair (initial value/previous result and next array element)
@@ -340,7 +340,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a left-fold accummulating and returns an array of the intermediate results.
+   * Performs a left-fold accumulating and returns an array of the intermediate results.
    * This function runs in constant stack space.
    *
    * @param f The function to apply on each argument pair (initial value/previous result and next array element)
@@ -352,7 +352,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a left-fold accummulating using first array element as a starting value
+   * Performs a left-fold accumulating using first array element as a starting value
    * and returns an array of the intermediate results.
    * It will fail for empty arrays.
    * This function runs in constant stack space.
@@ -375,7 +375,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a left-fold accummulating using first array element as a starting value
+   * Performs a left-fold accumulating using first array element as a starting value
    * and returns an array of the intermediate results.
    * It will fail for empty arrays.
    * This function runs in constant stack space.
@@ -388,7 +388,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a right-fold accummulating and returns an array of the intermediate results.
+   * Performs a right-fold accumulating and returns an array of the intermediate results.
    * This function runs in constant stack space.
    *
    * @param f The function to apply on each argument pair (previous array element and initial value/previous result)
@@ -409,7 +409,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a right-fold accummulating and returns an array of the intermediate results.
+   * Performs a right-fold accumulating and returns an array of the intermediate results.
    * This function runs in constant stack space.
    *
    * @param f The function to apply on each argument pair (previous array element and initial value/previous result)
@@ -421,7 +421,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a right-fold accummulating using last array element as a starting value
+   * Performs a right-fold accumulating using last array element as a starting value
    * and returns an array of the intermediate results.
    * It will fail for empty arrays.
    * This function runs in constant stack space.
@@ -444,7 +444,7 @@ public final class Array<A> implements Iterable<A> {
   }
 
   /**
-   * Performs a right-fold accummulating using last array element as a starting value
+   * Performs a right-fold accumulating using last array element as a starting value
    * and returns an array of the intermediate results.
    * It will fail for empty arrays.
    * This function runs in constant stack space.

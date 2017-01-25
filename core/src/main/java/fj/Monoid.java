@@ -249,7 +249,7 @@ public final class Monoid<A> {
    * {@link #sum(Object, Object)}.
    *
    * @param n multiplier
-   * @param a the value to be reapeatly summed
+   * @param a the value to be repeatedly summed
    * @return {@code a} summed {@code n} times. If {@code n <= 0}, returns
    * {@code zero()}
    */

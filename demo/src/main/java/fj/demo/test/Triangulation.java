@@ -7,7 +7,7 @@ import static fj.test.Property.prop;
 import static fj.test.Property.property;
 
 /*
-Any integer is either positive, zero or negative. Less succintly, isPositive applied to any integer
+Any integer is either positive, zero or negative. Less succinctly, isPositive applied to any integer
 is equivalent in truth to the conjunction (&&) of isNegative applied to that integer and a test for
 equivalence to zero.
 */

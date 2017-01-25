@@ -852,12 +852,12 @@ public final class Function {
   }
 
   /**
-   * Partial application of the eigth argument to the supplied function to get a function of type
+   * Partial application of the eighth argument to the supplied function to get a function of type
    * <tt>A -> B -> C -> D -> E -> F$ -> G -> I</tt>.
    *
    * @param f The function to partially apply.
    * @param h The value to apply to the function.
-   * @return A new function based on <tt>f</tt> with its eigth argument applied.
+   * @return A new function based on <tt>f</tt> with its eighth argument applied.
    */
   public static <A, B, C, D, E, F$, G, H, I> F<A, F<B, F<C, F<D, F<E, F<F$, F<G, I>>>>>>> partialApply8(
       final F<A, F<B, F<C, F<D, F<E, F<F$, F<G, F<H, I>>>>>>>> f, final H h) {

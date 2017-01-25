@@ -138,7 +138,7 @@ public final class Semigroup<A> {
    * {@link #sum(Object, Object)}.
    *
    * @param n multiplier
-   * @param a the value to be reapeatly summed n + 1 times
+   * @param a the value to be repeatedly summed n + 1 times
    * @return {@code a} summed {@code n} times. If {@code n <= 0}, returns
    * {@code zero()}
    */
@@ -507,7 +507,7 @@ public final class Semigroup<A> {
   /**
    * A semigroup for functions.
    *
-   * @param sb The smeigroup for the codomain.
+   * @param sb The semigroup for the codomain.
    * @return A semigroup for functions.
    */
   public static <A, B> Semigroup<F<A, B>> functionSemigroup(final Semigroup<B> sb) {

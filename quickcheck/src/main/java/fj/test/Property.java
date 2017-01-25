@@ -359,12 +359,12 @@ public final class Property {
   }
 
   /**
-   * Returns a property that is either proven (the given condition satsifies) or falsified
+   * Returns a property that is either proven (the given condition satisfies) or falsified
    * otherwise.
    *
    * @param b The condition that, if satisfied, returns a property that is proven; otherwise, the
    *          property is falsified.
-   * @return A property that is either proven (the given condition satsifies) or falsified
+   * @return A property that is either proven (the given condition satisfies) or falsified
    *         otherwise.
    */
   public static Property prop(final boolean b) {
@@ -437,7 +437,7 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
@@ -451,7 +451,7 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
@@ -465,7 +465,7 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -478,7 +478,7 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -492,8 +492,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
@@ -512,8 +512,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
@@ -528,8 +528,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -542,8 +542,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -556,8 +556,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
@@ -572,8 +572,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param f  The function to produce properties with results.
@@ -588,8 +588,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -602,8 +602,8 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -616,9 +616,9 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -642,9 +642,9 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -660,9 +660,9 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -684,9 +684,9 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -702,10 +702,10 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -732,10 +732,10 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -752,10 +752,10 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -780,10 +780,10 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -800,11 +800,11 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -834,11 +834,11 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -856,11 +856,11 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -888,11 +888,11 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -910,12 +910,12 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -948,12 +948,12 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -972,12 +972,12 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -1008,12 +1008,12 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -1032,13 +1032,13 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -1074,13 +1074,13 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -1100,13 +1100,13 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -1140,13 +1140,13 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -1166,14 +1166,14 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
-   * @param ah The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
+   * @param ah The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -1212,14 +1212,14 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
-   * @param ah The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
+   * @param ah The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.
@@ -1240,14 +1240,14 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
-   * @param ah The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
+   * @param ah The arbitrary to produces values from to produce the property with.
    * @param sa The shrink strategy to use upon falsification.
    * @param sb The shrink strategy to use upon falsification.
    * @param sc The shrink strategy to use upon falsification.
@@ -1284,14 +1284,14 @@ public final class Property {
    * Returns a property where its result is derived from universal quantification across the
    * application of its arguments. No shrinking occurs upon falsification.
    *
-   * @param aa The arbitrrary to produces values from to produce the property with.
-   * @param ab The arbitrrary to produces values from to produce the property with.
-   * @param ac The arbitrrary to produces values from to produce the property with.
-   * @param ad The arbitrrary to produces values from to produce the property with.
-   * @param ae The arbitrrary to produces values from to produce the property with.
-   * @param af The arbitrrary to produces values from to produce the property with.
-   * @param ag The arbitrrary to produces values from to produce the property with.
-   * @param ah The arbitrrary to produces values from to produce the property with.
+   * @param aa The arbitrary to produces values from to produce the property with.
+   * @param ab The arbitrary to produces values from to produce the property with.
+   * @param ac The arbitrary to produces values from to produce the property with.
+   * @param ad The arbitrary to produces values from to produce the property with.
+   * @param ae The arbitrary to produces values from to produce the property with.
+   * @param af The arbitrary to produces values from to produce the property with.
+   * @param ag The arbitrary to produces values from to produce the property with.
+   * @param ah The arbitrary to produces values from to produce the property with.
    * @param f  The function to produce properties with results.
    * @return A property where its result is derived from universal quantification across the
    *         application of its arguments.

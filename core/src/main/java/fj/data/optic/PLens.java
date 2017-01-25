@@ -23,7 +23,7 @@ import fj.data.vector.V2;
  * A {@link PLens} could also be defined as a weaker {@link PIso} where set requires an additional parameter than reverseGet.
  *
  * {@link PLens} stands for Polymorphic Lens as it set and modify methods change a type `A` to `B` and `S` to `T`. {@link Lens}
- * is a {@link PLens} restricted to monomoprhic updates.
+ * is a {@link PLens} restricted to monomorphic updates.
  *
  * A {@link PLens} is also a valid {@link Getter}, {@link Fold}, {@link POptional}, {@link PTraversal} and {@link PSetter}
  *

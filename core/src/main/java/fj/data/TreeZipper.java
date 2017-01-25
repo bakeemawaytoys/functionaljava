@@ -193,7 +193,7 @@ public final class TreeZipper<A> implements Iterable<TreeZipper<A>> {
   }
 
   /**
-   * Navigtes to the first child of the current location.
+   * Navigates to the first child of the current location.
    *
    * @return A new tree zipper focused on the first child of the current node, or none if the node has no children.
    */
@@ -204,7 +204,7 @@ public final class TreeZipper<A> implements Iterable<TreeZipper<A>> {
   }
 
   /**
-   * Navigtes to the last child of the current location.
+   * Navigates to the last child of the current location.
    *
    * @return A new tree zipper focused on the last child of the current node, or none if the node has no children.
    */

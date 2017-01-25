@@ -1166,7 +1166,7 @@ public abstract class List<A> implements Iterable<A> {
 
 
 	/**
-	 * Reutrns the tail of the list, if any.
+	 * Returns the tail of the list, if any.
 	 * @return The optional tail of the list.
 	 */
 	public final Option<List<A>> tailOption() {
@@ -1253,9 +1253,9 @@ public abstract class List<A> implements Iterable<A> {
   }
 
   /**
-   * Returns all but the last element of this list. Undefiend for the empty list.
+   * Returns all but the last element of this list. Undefined for the empty list.
    *
-   * @return All but the last element of this list. Undefiend for the empty list.
+   * @return All but the last element of this list. Undefined for the empty list.
    */
   public final List<A> init() {
     List<A> ys = this;
@@ -1792,7 +1792,7 @@ public abstract class List<A> implements Iterable<A> {
   }
 
   /**
-   * Returns a string from the given list of characters. The invers of this function is {@link
+   * Returns a string from the given list of characters. The inverse of this function is {@link
    * #fromString(String)}.
    *
    * @param cs The list of characters to produce the string from.

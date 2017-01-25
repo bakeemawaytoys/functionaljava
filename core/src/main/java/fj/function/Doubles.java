@@ -63,7 +63,7 @@ public final class Doubles {
    * Sums a list of doubles.
    *
    * @param doubles A list of doubles to sum.
-   * @return The sum of the doubless in the list.
+   * @return The sum of the doubles in the list.
    */
   public static double sum(final List<Double> doubles) {
     return doubles.foldLeft((x, y) -> x + y, 0.0);

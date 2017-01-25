@@ -193,10 +193,10 @@ public final class CheckResult {
   }
 
   /**
-   * Returns the execption if the result is one of; exception during property execution or exception
+   * Returns the exception if the result is one of; exception during property execution or exception
    * during argument value generation, otherwise, no exception are returned.
    *
-   * @return The execption if the result is one of; exception during property execution or exception
+   * @return The exception if the result is one of; exception during property execution or exception
    *         during argument value generation, otherwise, no exception are returned.
    */
   public Option<Throwable> exception() {

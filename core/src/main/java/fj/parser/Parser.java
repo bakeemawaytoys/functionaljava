@@ -918,7 +918,7 @@ public final class Parser<I, A, E> {
      * @return A parser that produces a unicode identifier part character.
      * @see Character#isUnicodeIdentifierPart(char)
      */
-    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentiferPart(final F0<E> missing,
+    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentifierPart(final F0<E> missing,
                                                                                    final F<Character, E> sat) {
       return StreamParser.satisfy(missing, sat, Character::isUnicodeIdentifierPart);
     }
@@ -931,9 +931,9 @@ public final class Parser<I, A, E> {
      * @return A parser that produces a unicode identifier part character.
      * @see Character#isUnicodeIdentifierPart(char)
      */
-    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentiferPart(final E missing,
+    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentifierPart(final E missing,
                                                                                    final F<Character, E> sat) {
-      return unicodeIdentiferPart(p(missing), sat);
+      return unicodeIdentifierPart(p(missing), sat);
     }
 
     /**
@@ -944,7 +944,7 @@ public final class Parser<I, A, E> {
      * @return A parser that produces a unicode identifier start character.
      * @see Character#isUnicodeIdentifierStart(char)
      */
-    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentiferStart(final F0<E> missing,
+    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentifierStart(final F0<E> missing,
                                                                                     final F<Character, E> sat) {
       return StreamParser.satisfy(missing, sat, Character::isUnicodeIdentifierStart);
     }
@@ -957,9 +957,9 @@ public final class Parser<I, A, E> {
      * @return A parser that produces a unicode identifier start character.
      * @see Character#isUnicodeIdentifierStart(char)
      */
-    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentiferStart(final E missing,
+    public static <E> Parser<Stream<Character>, Character, E> unicodeIdentifierStart(final E missing,
                                                                                     final F<Character, E> sat) {
-      return unicodeIdentiferStart(p(missing), sat);
+      return unicodeIdentifierStart(p(missing), sat);
     }
 
     /**

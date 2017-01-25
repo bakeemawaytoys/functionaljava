@@ -327,7 +327,7 @@ public abstract class P2<A, B> {
     }
 
     /**
-     * Polyomorphic lens targeted on _1.
+     * Polymorphic lens targeted on _1.
      */
     public static <A, B, C> PLens<P2<A, B>, P2<C, B>, A, C> _1p() {
       return pLens(__1(), a -> p2 -> P.p(a, p2._2()));
@@ -341,7 +341,7 @@ public abstract class P2<A, B> {
     }
 
     /**
-     * Polyomorphic lens targeted on _2.
+     * Polymorphic lens targeted on _2.
      */
     public static <A, B, C> PLens<P2<A, B>, P2<A, C>, B, C> _2p() {
       return pLens(__2(), b -> p2 -> P.p(p2._1(), b));

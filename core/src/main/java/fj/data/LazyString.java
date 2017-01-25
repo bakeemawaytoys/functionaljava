@@ -74,7 +74,7 @@ public final class LazyString implements CharSequence {
   }
 
   /**
-   * Returns the caracter at the specified index.
+   * Returns the character at the specified index.
    *
    * @param index The index for the character to be returned.
    * @return The character at the specified index.
@@ -241,7 +241,7 @@ public final class LazyString implements CharSequence {
    * Regular expression pattern matching.
    *
    * @param regex A regular expression to match this lazy string.
-   * @return True if this string mathches the given regular expression, otherwise False.
+   * @return True if this string matches the given regular expression, otherwise False.
    */
   public boolean matches(final String regex) {
     return Pattern.matches(regex, this);

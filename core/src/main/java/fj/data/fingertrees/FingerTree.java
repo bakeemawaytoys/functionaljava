@@ -15,8 +15,8 @@ import static fj.data.Stream.nil;
  * A general purpose data structure that can serve as a sequence, priority queue, search tree, priority search queue
  * and more.
  * <p/>
- * This class serves as a datastructure construction kit, rather than a datastructure in its own right. By supplying
- * a monoid, a measurement function, insertion, deletion, and so forth, any purely functional datastructure can be
+ * This class serves as a data structure construction kit, rather than a data structure in its own right. By supplying
+ * a monoid, a measurement function, insertion, deletion, and so forth, any purely functional data structure can be
  * emulated. See {@link Seq} for an example.
  * <p/>
  * Based on "Finger trees: a simple general-purpose data structure", by Ralf Hinze and Ross Paterson.
@@ -212,8 +212,8 @@ public abstract class FingerTree<V, A> {
    * Splits this tree into a pair of subtrees at the point where the given predicate, based on the measure,
    * changes from <code>false</code> to <code>true</code>. This is a O(log(n)) operation.
    *
-   * @return Pair: the subtree containing elements before the point where <code>pred</code> first holds and the subtree
-   *   containing element at and after the point where <code>pred</code> first holds. Empty if <code>pred</code> never holds.
+   * @return Pair: the subtree containing elements before the point where <code>predicate</code> first holds and the subtree
+   *   containing element at and after the point where <code>predicate</code> first holds. Empty if <code>predicate</code> never holds.
    */
   public final P2<FingerTree<V, A>, FingerTree<V, A>> split(final F<V, Boolean> predicate) {
     if (!isEmpty() && predicate.f(measure())) {
@@ -225,7 +225,7 @@ public abstract class FingerTree<V, A> {
   }
 
   /**
-   * Like <code>split</code>, but returns the element where <code>pred</code> first holds separately.
+   * Like <code>split</code>, but returns the element where <code>predicate</code> first holds separately.
    *
    * Throws an error if the tree is empty.
    */

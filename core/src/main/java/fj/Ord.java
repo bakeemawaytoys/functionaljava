@@ -16,8 +16,6 @@ import java.util.Comparator;
 
 import static fj.Function.apply;
 import static fj.Function.compose;
-import static fj.Function.curry;
-import static fj.Semigroup.semigroup;
 import static fj.Semigroup.semigroupDef;
 
 /**

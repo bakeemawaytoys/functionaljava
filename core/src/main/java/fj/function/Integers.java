@@ -12,8 +12,6 @@ import static fj.data.Option.none;
 import static fj.Semigroup.intAdditionSemigroup;
 import static fj.Semigroup.intMultiplicationSemigroup;
 
-import static java.lang.Math.abs;
-
 /**
  * Curried functions over Integers.
  *

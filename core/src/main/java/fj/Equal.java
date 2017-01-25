@@ -28,8 +28,6 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 import static fj.Function.compose;
-import static fj.Function.constant;
-import static fj.Function.curry;
 
 /**
  * Tests for equality between two objects.

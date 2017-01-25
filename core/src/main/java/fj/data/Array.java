@@ -5,19 +5,16 @@ import fj.F;
 import fj.F0;
 import fj.F2;
 import fj.Hash;
-import fj.P;
 import fj.P2;
 import fj.Show;
 import fj.Unit;
 import fj.function.Effect1;
 
-import java.util.AbstractCollection;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 import static fj.Function.constant;
 import static fj.Function.curry;

@@ -1,11 +1,9 @@
 package fj.function;
 
 import fj.F;
-import fj.Monoid;
 import fj.data.List;
 import fj.data.Option;
 
-import static fj.Function.curry;
 import static fj.data.Option.none;
 import static fj.data.Option.some;
 

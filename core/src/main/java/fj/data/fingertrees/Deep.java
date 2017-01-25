@@ -10,7 +10,6 @@ import fj.data.vector.V4;
 import static fj.Function.constant;
 import static fj.data.List.list;
 import static fj.Function.flip;
-import static fj.data.Stream.nil;
 
 /**
  * A finger tree with 1-4-digits on the left and right, and a finger tree of 2-3-nodes in the middle.

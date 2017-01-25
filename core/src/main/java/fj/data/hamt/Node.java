@@ -4,7 +4,6 @@ import fj.F;
 import fj.P2;
 import fj.Show;
 import fj.data.Either;
-import fj.data.Option;
 import fj.data.Stream;
 
 /**

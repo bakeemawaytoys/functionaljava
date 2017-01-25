@@ -7,7 +7,6 @@ import fj.data.Stream;
 
 import static fj.Monoid.intAdditionMonoid;
 import static fj.Monoid.intMaxMonoid;
-import static fj.data.Stream.nil;
 
 /**
  * Provides 2-3 finger trees, a functional representation of persistent sequences supporting access to the ends in

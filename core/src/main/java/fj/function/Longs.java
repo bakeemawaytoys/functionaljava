@@ -6,8 +6,6 @@ import static fj.Function.curry;
 import static fj.Semigroup.longAdditionSemigroup;
 import static fj.Semigroup.longMultiplicationSemigroup;
 
-import static java.lang.Math.abs;
-
 /**
  * Curried functions over Longs.
  *

@@ -1,7 +1,6 @@
 package fj.data;
 
 import fj.*;
-import fj.function.Effect1;
 
 import java.util.Collection;
 import java.util.Iterator;
